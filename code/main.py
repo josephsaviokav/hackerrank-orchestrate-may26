@@ -7,7 +7,6 @@ Usage:
     python main.py --sample          # Test on sample tickets
     python main.py --debug-index     # Show corpus index summary
     python main.py --debug-classify  # Test classification on samples
-    python main.py --debug-llm       # Test LLM reasoning (requires ANTHROPIC_API_KEY)
 """
 
 import sys
@@ -23,7 +22,6 @@ from data_loader import create_loader
 from classifier import create_classifier
 from retriever import create_retriever
 from router import create_router
-from llm_reasoning import create_reasoner
 
 
 class SupportTriageAgent:
@@ -38,7 +36,6 @@ class SupportTriageAgent:
         self.classifier = create_classifier()
         self.retriever = create_retriever(self.corpus_indexer)
         self.router = create_router()
-        self.reasoner = create_reasoner()
         
         print(f"✓ Corpus indexed: {self.corpus_indexer.doc_count} documents")
         print(f"✓ Ready to process tickets\n")
@@ -53,22 +50,10 @@ class SupportTriageAgent:
         # Step 1: Classify ticket
         classification = self.classifier.classify_ticket(issue, subject, company)
         
-        # Step 1b: LLM refinement for uncertain cases (Phase 4)
-        if self.reasoner.is_enabled() and classification.get("request_type") == "product_issue":
-            classification = self.reasoner.refine_classification(issue, subject, classification)
-        
         # Step 2: Retrieve relevant docs
         query = f"{subject} {issue}"
         inferred_company = classification.get("company")
         retrieval_result = self.retriever.get_best_match(query, inferred_company)
-        
-        # Step 2b: LLM escalation evaluation (Phase 4)
-        if self.reasoner.is_enabled() and retrieval_result:
-            llm_eval = self.reasoner.evaluate_escalation(issue, classification, retrieval_result)
-            # If LLM disagrees with rules, escalate (conservative)
-            if llm_eval["should_escalate"] and llm_eval["confidence"] > 0.7:
-                classification["should_escalate"] = True
-                classification["escalation_reason"] = llm_eval["reasoning"]
         
         # Step 3: Route and generate response
         routed = self.router.route_ticket(classification, retrieval_result, ticket)
@@ -175,46 +160,6 @@ class SupportTriageAgent:
             print(f"      Risk level: {classification['risk_level']}")
             print(f"      Should escalate: {classification['should_escalate']}\n")
     
-    def debug_llm_reasoning(self):
-        """Test LLM reasoning on sample tickets."""
-        if not self.reasoner.is_enabled():
-            print("❌ LLM reasoning not enabled")
-            print("   Set ANTHROPIC_API_KEY environment variable to enable")
-            print("   Example: export ANTHROPIC_API_KEY=sk-ant-...")
-            return
-        
-        print("🧠 Testing LLM Reasoning:\n")
-        
-        tickets = self.data_loader.load_sample_tickets()[:3]
-        
-        for i, ticket in enumerate(tickets, 1):
-            issue = ticket.get("Issue", "")
-            subject = ticket.get("Subject", "")[:50]
-            
-            print(f"  [{i}] {subject}...")
-            
-            # Step 1: Initial classification
-            classification = self.classifier.classify_ticket(
-                ticket.get("Issue", ""),
-                ticket.get("Subject", ""),
-                ticket.get("Company")
-            )
-            print(f"      Initial: {classification['request_type']}")
-            
-            # Step 2: LLM refinement
-            refined = self.reasoner.refine_classification(
-                ticket.get("Issue", ""),
-                ticket.get("Subject", ""),
-                classification
-            )
-            print(f"      Refined: {refined['request_type']}")
-            
-            # Step 3: Multi-part analysis
-            multi_part = self.reasoner.analyze_multi_part_issue(ticket.get("Issue", ""))
-            print(f"      Parts: {multi_part['parts_count']} ({multi_part['reasoning'][:30]}...)")
-            
-            print()
-
 
 def main():
     """Main entry point."""
@@ -238,8 +183,6 @@ def main():
             agent.show_corpus_summary()
         elif command == "--debug-classify":
             agent.debug_classify_sample()
-        elif command == "--debug-llm":
-            agent.debug_llm_reasoning()
         else:
             print(f"Unknown command: {command}")
             print(__doc__)
