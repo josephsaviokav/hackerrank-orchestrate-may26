@@ -1,1 +1,193 @@
-issue,subject,company,response,product_area,status,request_type,justification
+status,product_area,response,justification,request_type
+replied,Account,"---
+title: ""How do I get access to Claude in Amazon Bedrock?""
+title_slug: ""how-do-i-get-access-to-claude-in-amazon-bedrock""
+source_url: ""https://support.claude.com/en/articles/7996920-how-do-i-get-access-to-claude-in-amazon-bedrock""
+last_updated_iso: ""2026-03-16T21:16:50Z""
+article_id: ""7929295""
+breadcrumbs:
+  - ""Amazon Bedrock""
+---
+
+# How do I get access to Claude in Amazon Bedrock?",Request type: product_issue | Risk level: medium | Urgency: high | Decision: Replied (matched to How do I get access to Claude in Amazon Bedrock?),product_issue
+escalated,Assessments,"Thank you for reporting this issue. Due to the sensitive nature of your request (involving security, fraud, legal, or billing concerns), we're escalating this to our specialized support team for priority review. You'll hear from us shortly.","Request type: product_issue | Risk level: high | Urgency: low | Decision: Escalated (High-risk category (fraud, security, legal, billing))",product_issue
+escalated,Payments,"Thank you for reporting this issue. Due to the sensitive nature of your request (involving security, fraud, legal, or billing concerns), we're escalating this to our specialized support team for priority review. You'll hear from us shortly.","Request type: product_issue | Risk level: high | Urgency: medium | Decision: Escalated (High-risk category (fraud, security, legal, billing))",product_issue
+escalated,Interviews,"Thank you for reporting this issue. Due to the sensitive nature of your request (involving security, fraud, legal, or billing concerns), we're escalating this to our specialized support team for priority review. You'll hear from us shortly.","Request type: bug | Risk level: high | Urgency: high | Decision: Escalated (High-risk category (fraud, security, legal, billing))",bug
+replied,General Help,"---
+title: ""Enabling Outcome Data and Public Link with Greenhouse""
+title_slug: ""enabling-outcome-data-and-public-link-with-greenhouse""
+source_url: ""https://support.hackerrank.com/articles/3593554348-enabling-outcome-data-and-public-link-with-greenhouse""
+article_slug: ""3593554348-enabling-outcome-data-and-public-link-with-greenhouse""
+last_updated_exact: ""Dec 28, 2024, 5:01 AM""
+last_updated_relative: ""Last updated 1 year ago""
+breadcrumbs:
+  - ""Integrations""
+  - ""Applicant Tracking Systems""
+  - ""Greenhouse""
+---
+
+# Enabling Outcome Data and Public Link with Greenhouse",Request type: bug | Risk level: low | Urgency: medium | Decision: Replied (matched to Enabling Outcome Data and Public Link with Greenhouse),bug
+escalated,General Help,"Thank you for reporting this issue. Due to the sensitive nature of your request (involving security, fraud, legal, or billing concerns), we're escalating this to our specialized support team for priority review. You'll hear from us shortly.","Request type: product_issue | Risk level: high | Urgency: medium | Decision: Escalated (High-risk category (fraud, security, legal, billing))",product_issue
+replied,General Help,"---
+title: ""July 2025 Release Notes Screen Screen Features Available in the AI Add-on Package Skills Platform Developer Experience Interview Interview Features Available in the AI Add-on Package SkillUp Engage""
+title_slug: ""july-2025-release-notes-screen-screen-features-available-in-the-ai-add-on-package-skills-platform-developer-experience-interview-interview-features-available-in-the-ai-add-on-package-skillup-engage""
+source_url: ""https://support.hackerrank.com/articles/3121307537-july-2025-release-notes""
+article_slug: ""3121307537-july-2025-release-notes""
+last_updated_exact: ""Sep 19, 2025, 3:43 PM""
+last_updated_relative: ""Last updated 7 months ago""
+breadcrumbs:
+  - ""General Help""
+  - ""Release Notes""
+---
+
+# July 2025 Release Notes Screen Screen Features Available in the AI Add-on Package Skills Platform Developer Experience Interview Interview Features Available in the AI Add-on Package SkillUp Engage",Request type: bug | Risk level: low | Urgency: high | Decision: Replied (matched to July 2025 Release Notes Screen Screen Features Available in the AI Add-on Package Skills Platform Developer Experience Interview Interview Features Available in the AI Add-on Package SkillUp Engage),bug
+replied,General Help,"---
+title: ""Create a Question Creating a question from the Library Creating a question while editing a test""
+title_slug: ""create-a-question-creating-a-question-from-the-library-creating-a-question-while-editing-a-test""
+source_url: ""https://support.hackerrank.com/articles/4894957291-creating-questions""
+article_slug: ""4894957291-creating-questions""
+last_updated_exact: ""Mar 30, 2026, 6:07 PM""
+last_updated_relative: ""Last updated 4 weeks ago""
+breadcrumbs:
+  - ""Library""
+  - ""Manage Question""
+---
+
+# Create a Question Creating a question from the Library Creating a question while editing a test",Request type: bug | Risk level: low | Urgency: medium | Decision: Replied (matched to Create a Question Creating a question from the Library Creating a question while editing a test),bug
+replied,General Help,"---
+title: ""Create a Question Creating a question from the Library Creating a question while editing a test""
+title_slug: ""create-a-question-creating-a-question-from-the-library-creating-a-question-while-editing-a-test""
+source_url: ""https://support.hackerrank.com/articles/4894957291-creating-questions""
+article_slug: ""4894957291-creating-questions""
+last_updated_exact: ""Mar 30, 2026, 6:07 PM""
+last_updated_relative: ""Last updated 4 weeks ago""
+breadcrumbs:
+  - ""Library""
+  - ""Manage Question""
+---
+
+# Create a Question Creating a question from the Library Creating a question while editing a test",Request type: bug | Risk level: medium | Urgency: low | Decision: Replied (matched to Create a Question Creating a question from the Library Creating a question while editing a test),bug
+escalated,General Help,"Thank you for reporting this issue. Due to the sensitive nature of your request (involving security, fraud, legal, or billing concerns), we're escalating this to our specialized support team for priority review. You'll hear from us shortly.","Request type: feature_request | Risk level: high | Urgency: low | Decision: Escalated (High-risk category (fraud, security, legal, billing))",feature_request
+escalated,Interviews,Thank you for your detailed request. Your issue involves multiple components that require careful review by our support team. We're escalating this for personalized assistance.,Request type: product_issue | Risk level: low | Urgency: medium | Decision: Escalated (Complex multi-part issue requiring human review),product_issue
+replied,General,"---
+title: ""Crisis Helpline Support in Claude""
+title_slug: ""crisis-helpline-support-in-claude""
+source_url: ""https://support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude""
+last_updated_iso: ""2026-03-16T21:01:37Z""
+article_id: ""14982572""
+breadcrumbs:
+  - ""Safeguards""
+---
+
+# Crisis Helpline Support in Claude",Request type: bug | Risk level: low | Urgency: high | Decision: Replied (matched to Crisis Helpline Support in Claude),bug
+replied,Interviews,"To create an interview template: 
+
+1.  Log in to your **HackerRank for Work** account using your credentials.",Request type: product_issue | Risk level: low | Urgency: high | Decision: Replied (matched to Manage Interviews Templates Creating an interview template Sharing an interview template Removing user access from an interview template Renaming an interview template Deleting an interview template Frequently Asked Questions (FAQ)),product_issue
+replied,General Help,"---
+title: ""Pause Subscription""
+title_slug: ""pause-subscription""
+source_url: ""https://support.hackerrank.com/articles/5157311476-pause-subscription""
+article_slug: ""5157311476-pause-subscription""
+last_updated_exact: ""Mar 6, 2026, 12:18 AM""
+last_updated_relative: ""Last updated 2 months ago""
+breadcrumbs:
+  - ""Settings""
+  - ""User Account Settings and Preferences""
+---
+
+# Pause Subscription",Request type: bug | Risk level: low | Urgency: high | Decision: Replied (matched to Pause Subscription),bug
+replied,General Help,"---
+title: ""Get started with Claude Cowork""
+title_slug: ""get-started-with-claude-cowork""
+source_url: ""https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork""
+last_updated_iso: ""2026-04-15T22:23:32Z""
+article_id: ""15229827""
+breadcrumbs:
+  - ""Claude""
+  - ""Features and capabilities""
+---
+
+# Get started with Claude Cowork",Request type: bug | Risk level: low | Urgency: low | Decision: Replied (matched to Get started with Claude Cowork),bug
+escalated,General Help,"Thank you for reporting this issue. Due to the sensitive nature of your request (involving security, fraud, legal, or billing concerns), we're escalating this to our specialized support team for priority review. You'll hear from us shortly.","Request type: product_issue | Risk level: high | Urgency: low | Decision: Escalated (High-risk category (fraud, security, legal, billing))",product_issue
+escalated,General Help,"Thank you for reporting this issue. Due to the sensitive nature of your request (involving security, fraud, legal, or billing concerns), we're escalating this to our specialized support team for priority review. You'll hear from us shortly.","Request type: product_issue | Risk level: high | Urgency: high | Decision: Escalated (High-risk category (fraud, security, legal, billing))",product_issue
+replied,General Help,"---
+title: ""Profile and Preferences FAQs Change username Update personal details""
+title_slug: ""profile-and-preferences-faqs-change-username-update-personal-details""
+source_url: ""https://help.hackerrank.com/articles/4472358331-profile-and-preferences-faqs""
+article_slug: ""4472358331-profile-and-preferences-faqs""
+last_updated_exact: ""Mar 12, 2026, 2:26 PM""
+last_updated_relative: ""Last updated 1 month ago""
+breadcrumbs:
+  - ""Account Settings""
+  - ""Profile and Preferences""
+---
+
+# Profile and Preferences FAQs Change username Update personal details",Request type: product_issue | Risk level: low | Urgency: low | Decision: Replied (matched to Profile and Preferences FAQs Change username Update personal details),product_issue
+replied,Payments,"---
+title: ""Dispute Resolution""
+source_url: ""https://www.visa.co.in/support/small-business/dispute-resolution.html""
+final_url: ""https://www.visa.co.in/support/small-business/dispute-resolution.html""
+last_modified: ""2023-11-28T01:50:01.804Z""
+description: ""Learn the basics about how to handle disputes and resolve disputes quickly.""
+---
+
+# Dispute Resolution",Request type: product_issue | Risk level: low | Urgency: low | Decision: Replied (matched to Dispute Resolution),product_issue
+escalated,Claude Code,"Thank you for reporting this issue. Due to the sensitive nature of your request (involving security, fraud, legal, or billing concerns), we're escalating this to our specialized support team for priority review. You'll hear from us shortly.","Request type: bug | Risk level: high | Urgency: low | Decision: Escalated (High-risk category (fraud, security, legal, billing))",bug
+replied,General Help,"---
+title: ""Does Anthropic crawl data from the web, and how can site owners block the crawler?""
+title_slug: ""does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler""
+source_url: ""https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler""
+last_updated_iso: ""2026-04-07T21:18:35Z""
+article_id: ""9027581""
+breadcrumbs:
+  - ""Privacy and legal""
+---
+
+# Does Anthropic crawl data from the web, and how can site owners block the crawler?","Request type: bug | Risk level: low | Urgency: low | Decision: Replied (matched to Does Anthropic crawl data from the web, and how can site owners block the crawler?)",bug
+escalated,Payments,"Thank you for reporting this issue. Due to the sensitive nature of your request (involving security, fraud, legal, or billing concerns), we're escalating this to our specialized support team for priority review. You'll hear from us shortly.","Request type: product_issue | Risk level: high | Urgency: high | Decision: Escalated (High-risk category (fraud, security, legal, billing))",product_issue
+replied,General Help,"---
+title: ""I would like to input sensitive data into my chats with Claude. Who can view my conversations?""
+title_slug: ""i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations""
+source_url: ""https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations""
+last_updated_iso: ""2026-03-16T21:15:09Z""
+article_id: ""8322867""
+breadcrumbs:
+  - ""Claude""
+  - ""Account management""
+---
+
+# I would like to input sensitive data into my chats with Claude. Who can view my conversations?",Request type: product_issue | Risk level: low | Urgency: low | Decision: Replied (matched to I would like to input sensitive data into my chats with Claude. Who can view my conversations?),product_issue
+replied,General,"---
+title: ""Managing API key environment variables in Claude Code""
+title_slug: ""managing-api-key-environment-variables-in-claude-code""
+source_url: ""https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code""
+last_updated_iso: ""2026-03-16T21:22:36Z""
+article_id: ""13676744""
+breadcrumbs:
+  - ""Claude Code""
+---",Request type: product_issue | Risk level: low | Urgency: low | Decision: Replied (matched to Managing API key environment variables in Claude Code),product_issue
+escalated,Fraud,"Thank you for reporting this issue. Due to the sensitive nature of your request (involving security, fraud, legal, or billing concerns), we're escalating this to our specialized support team for priority review. You'll hear from us shortly.","Request type: product_issue | Risk level: high | Urgency: low | Decision: Escalated (High-risk category (fraud, security, legal, billing))",product_issue
+replied,General Help,"> Claude for Excel is currently in beta and available to Pro, Max, Team, and Enterprise plans.
+
+Claude for Excel is an add-in that integrates Claude into your Excel workflow. It's designed for professionals who work extensively with spreadsheets, particularly in financial analysis and modeling.",Request type: bug | Risk level: low | Urgency: medium | Decision: Replied (matched to Use Claude for Excel),bug
+escalated,General Help,"Thank you for reporting this issue. Due to the sensitive nature of your request (involving security, fraud, legal, or billing concerns), we're escalating this to our specialized support team for priority review. You'll hear from us shortly.","Request type: feature_request | Risk level: high | Urgency: low | Decision: Escalated (High-risk category (fraud, security, legal, billing))",feature_request
+replied,General Help,"---
+title: ""FAQs on Using Claude for Education at Your University""
+title_slug: ""faqs-on-using-claude-for-education-at-your-university""
+source_url: ""https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university""
+last_updated_iso: ""2026-03-16T21:06:36Z""
+article_id: ""12022417""
+breadcrumbs:
+  - ""Claude for Education""
+---
+
+# FAQs on Using Claude for Education at Your University",Request type: feature_request | Risk level: low | Urgency: low | Decision: Replied (matched to FAQs on Using Claude for Education at Your University),feature_request
+replied,Payments,"---
+title: ""Visa Consumer Support""
+source_url: ""https://www.visa.co.in/support.html""
+final_url: ""https://www.visa.co.in/support.html""
+last_modified: ""2026-01-06T04:51:28.352Z""
+description: ""If you have questions about your Visa card or need help with a lost or stolen card, visit Visa’s Consumer Support page.""
+---
+
+# Visa Consumer Support",Request type: product_issue | Risk level: low | Urgency: low | Decision: Replied (matched to Visa Consumer Support),product_issue
